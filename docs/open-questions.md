@@ -84,6 +84,8 @@ Note: Some apps like Claude Code have started to indicate in the skill frontmatt
 
 > "If the conclusion is 'just use resources', I am fine with that direction too — but then we should standardize a way to identify and list workflow resources as 'skills' so clients can reliably surface them (otherwise we are back to out-of-band conventions)." — [sebthom](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/2167#issuecomment-3824771018)
 
+See also [Approaches](approaches.md) for more notes on using resources.
+
 ## 13. What is the optimal relationship between skills and MCP?
 
 Skills already work as simple files that agents load directly. Adding MCP to the process should provide clear value beyond what standalone skills already offer.
@@ -93,3 +95,5 @@ Skills already work as simple files that agents load directly. Adding MCP to the
 > "Skills are simple files that agents can load directly even if they don't have any MCP servers connected. Adding MCP to the process only for that would be over complicating something that already works well... the question becomes 'what is the optimal relationship between skills and MCP?'" — [Cliff Hall](https://github.com/cliffhall)
 
 >  "Skills can be benefit from MCP Servers as an "official" distribution channel from an organizations. Also, Skills _can be_ dependendent on the specific tools _only_ available on the MCP server they are distributed with. I see Skills and MCP are complementary to each other." — [Yu Yi](https://github.com/erain)
+
+> "MCP servers are most useful as an appendage of skills, like `scripts/` are. That also naturally answers the question of multi-server skills." — [Jonathan Hefner](https://github.com/jmhefner)
